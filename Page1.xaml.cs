@@ -24,5 +24,16 @@ namespace WpfApp1_Пр_5_Гуляева_УП_02._02
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+           
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
