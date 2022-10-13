@@ -5,16 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1_Пр_5_Гуляева_УП_02._02"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="570.618" Width="1082.99">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
-            </Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
         <TextBlock TextWrapping="Wrap" Margin="5">
             Данная страница находится в оконном приложении
         </TextBlock>
         <Frame Grid.Column="1" Source="Page1.xaml" Margin="3"
                BorderBrush="LimeGreen" BorderThickness="2"></Frame>
+
     </Grid>
 </Window>
