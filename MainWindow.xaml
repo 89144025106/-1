@@ -7,13 +7,17 @@
         mc:Ignorable="d"
         Title="Mene:Load Case/Save/New Case" Background="CornflowerBlue" Foreground="White" Width="960.825" d:DesignHeight="541.186">
 
-    <Grid RenderTransformOrigin="0.437,0.562" Margin="0,0,-8,-36">
+    <Grid RenderTransformOrigin="0.437,0.562" Margin="0,0,-8,-36" HorizontalAlignment="Right" Width="961">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="272*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="228*"></ColumnDefinition>
             <ColumnDefinition Width="733*"></ColumnDefinition>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock TextWrapping="Wrap"  Margin="5,4,716,30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+        <TextBlock TextWrapping="Wrap"  Margin="13,4,716,37" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -21,20 +25,19 @@
                     <RotateTransform Angle="0.013"/>
                     <TranslateTransform/>
                 </TransformGroup>
-            </TextBlock.RenderTransform><InlineUIContainer>
-              
-
+            </TextBlock.RenderTransform><InlineUIContainer/><InlineUIContainer>
+                <TextBox  Height="23" TextWrapping="Wrap" Text="-Case 1" Width="120"/>
             </InlineUIContainer></TextBlock>
-        <Frame Source="Page1" Margin="10,0,2,437"
+        <Frame Source="Page1" Margin="10,0,2,435"
         BorderBrush="DarkBlue" BorderThickness="3" Grid.Column="1"/>
         <Frame Source="Edit Case 1" Margin="10,108,289,0"
-        BorderBrush="DarkBlue" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
+        BorderBrush="DarkBlue" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Grid.RowSpan="2"/>
         <Frame Source="Page3" Margin="442,108,2,0"
-        BorderBrush="DarkBlue" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
-        <StackPanel/>
-        <Button Margin="24,183,574,335" Padding="5" Content="Textbox1" Grid.Column="1"/>
-        <Button Margin="190,183,416,335" Padding="5" Content="Textbox2" Grid.Column="1"/>
-        <Button Margin="22,229,319,159" Padding="5" Content="Grid" Grid.Column="1"/>
+        BorderBrush="DarkBlue" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Grid.RowSpan="2"/>
+        <StackPanel Margin="0,0,0,35"/>
+        <Button Margin="22,183,576,333"  Padding="5" Content="Textbox1" Grid.Column="1"/>
+        <Button Margin="190,183,416,333" Padding="5" Content="Textbox2" Grid.Column="1"/>
+        <Button Margin="22,229,319,157"  Padding="5" Content="Grid" Grid.Column="1"/>
 
     </Grid>
 </Window>
