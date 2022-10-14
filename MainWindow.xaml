@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1_Пр_5_Гуляева_УП_02._02"
         mc:Ignorable="d"
-        Title="MainWindow" Width="960.825" d:DesignHeight="541.186">
+        Title="Mene:Load Case/Save/New Case" Background="LightSkyBlue" Foreground="White" Width="960.825" d:DesignHeight="541.186">
 
-    <Grid RenderTransformOrigin="0.412,0.478" Margin="0,0,-8,-36">
+    <Grid RenderTransformOrigin="0.437,0.562" Margin="0,0,-8,-36">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="91*"></ColumnDefinition>
             <ColumnDefinition Width="293*"></ColumnDefinition>
@@ -20,14 +20,16 @@
                     <RotateTransform Angle="0.013"/>
                     <TranslateTransform/>
                 </TransformGroup>
-            </TextBlock.RenderTransform>
+            </TextBlock.RenderTransform><InlineUIContainer>
+              
 
-        </TextBlock>
-        <Frame Source="Page1" Margin="3,0,0,437"
-        BorderBrush="tomato" BorderThickness="3" Grid.Column="1"/>
-        <Frame Source="Page2" Margin="3,108,303,29"
-        BorderBrush="tomato" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
+            </InlineUIContainer></TextBlock>
+        <Frame Source="Page1" Margin="2,0,0,437"
+        BorderBrush="DodgerBlue" BorderThickness="3" Grid.Column="1"/>
+        <Frame Source="Edit Case 1" Margin="2,108,303,29"
+             
+        BorderBrush="DodgerBlue" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
         <Frame Source="Page3" Margin="430,108,0,29"
-         BorderBrush="tomato" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
+        BorderBrush="DodgerBlue" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
     </Grid>
 </Window>
