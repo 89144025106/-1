@@ -5,29 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1_Пр_5_Гуляева_УП_02._02"
         mc:Ignorable="d"
-        Title="MainWindow" Height="570.618" Width="1082.99">
-    <Grid RenderTransformOrigin="0.412,0.478" Height="540" VerticalAlignment="Top">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="60*"></ColumnDefinition>
-            <ColumnDefinition Width="193*"></ColumnDefinition>
-            <ColumnDefinition Width="316"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <TextBlock TextWrapping="Wrap" Margin="5,5,2,5">
+        Title="MainWindow" Width="960.825" d:DesignHeight="541.186">
 
-        </TextBlock>
-        <Frame Source="Page1" Margin="3,0,10,437"
-               BorderBrush="" BorderThickness="3" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Frame Source="Page1" Margin="71,33,70,-68"
-            BorderBrush="Maroon" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
-            <Frame.RenderTransform>
+    <Grid RenderTransformOrigin="0.412,0.478" Margin="0,0,-8,-36">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="91*"></ColumnDefinition>
+            <ColumnDefinition Width="293*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock TextWrapping="Wrap"  Margin="5,4,730,30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+            <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="90.165"/>
+                    <RotateTransform Angle="0.013"/>
                     <TranslateTransform/>
                 </TransformGroup>
-            </Frame.RenderTransform>
-        </Frame>
+            </TextBlock.RenderTransform>
 
+        </TextBlock>
+        <Frame Source="Page1" Margin="3,0,0,437"
+        BorderBrush="tomato" BorderThickness="3" Grid.Column="1"/>
+        <Frame Source="Page2" Margin="3,108,303,29"
+        BorderBrush="tomato" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
+        <Frame Source="Page3" Margin="430,108,0,29"
+         BorderBrush="tomato" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
     </Grid>
 </Window>
