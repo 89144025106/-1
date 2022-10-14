@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1_Пр_5_Гуляева_УП_02._02"
         mc:Ignorable="d"
-        Title="Mene:Load Case/Save/New Case" Background="DeepPink" Foreground="White" Width="960.825" d:DesignHeight="541.186">
+        Title="Mene:Load Case/Save/New Case" Background="CornflowerBlue" Foreground="White" Width="960.825" d:DesignHeight="541.186">
 
     <Grid RenderTransformOrigin="0.437,0.562" Margin="0,0,-8,-36">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="91*"></ColumnDefinition>
-            <ColumnDefinition Width="293*"></ColumnDefinition>
+            <ColumnDefinition Width="228*"></ColumnDefinition>
+            <ColumnDefinition Width="733*"></ColumnDefinition>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock TextWrapping="Wrap"  Margin="5,4,730,30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+        <TextBlock TextWrapping="Wrap"  Margin="5,4,716,30" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -24,11 +25,16 @@
               
 
             </InlineUIContainer></TextBlock>
-        <Frame Source="Page1" Margin="2,0,0,437"
+        <Frame Source="Page1" Margin="10,0,2,437"
         BorderBrush="DarkBlue" BorderThickness="3" Grid.Column="1"/>
-        <Frame Source="Edit Case 1" Margin="2,108,303,0"
+        <Frame Source="Edit Case 1" Margin="10,108,289,0"
         BorderBrush="DarkBlue" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
-        <Frame Source="Page3" Margin="430,108,0,0"
+        <Frame Source="Page3" Margin="442,108,2,0"
         BorderBrush="DarkBlue" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Grid.Column="1"/>
+        <StackPanel/>
+        <Button Margin="24,183,574,335" Padding="5" Content="Textbox1" Grid.Column="1"/>
+        <Button Margin="190,183,416,335" Padding="5" Content="Textbox2" Grid.Column="1"/>
+        <Button Margin="22,229,319,159" Padding="5" Content="Grid" Grid.Column="1"/>
+
     </Grid>
 </Window>

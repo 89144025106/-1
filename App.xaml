@@ -4,10 +4,10 @@
              xmlns:local="clr-namespace:WpfApp1_Пр_5_Гуляева_УП_02._02"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
+       
         <Style TargetType="Grid">
-            <Setter Property="Background" Value="CornflowerBlue" />
-         
+           <Setter Property="Background" Value="CornflowerBlue" />
         </Style>
-        
-        </Application.Resources>
+       
+    </Application.Resources>
 </Application>
